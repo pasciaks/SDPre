@@ -36,8 +36,5 @@ class Objective3Lab3 {
 
         System.out.println(first + " + " + second + " + " + third + " = " + (first + second + third));
 
-
-
-
     }
 }

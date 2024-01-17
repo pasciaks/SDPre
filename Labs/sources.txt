@@ -1,5 +1,9 @@
 ./Objective1Lab1.java
 ./MenuExample.java
+./Objective2Lab3.java
+./Objective2Lab2.java
 ./ClassExample.java
 ./SysoutExample.java
+./Objective2Lab1.java
 ./HelloWorld.java
+./Objective1Lab2.java

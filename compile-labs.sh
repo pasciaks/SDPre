@@ -9,5 +9,8 @@ cd /Users/sheldonpasciak/SDPre/Labs/ || exit
 ls -l ./*.java
 find . -name "*.java" > sources.txt
 javac @sources.txt
-ls -l ./*.Class
+ls -l ./*.class
+
+
+
 

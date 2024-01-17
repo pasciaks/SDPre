@@ -4,6 +4,7 @@
 ./Objective2Lab2.java
 ./ClassExample.java
 ./SysoutExample.java
+./Objective3Lab1.java
 ./Objective2Lab1.java
 ./HelloWorld.java
 ./Objective1Lab2.java

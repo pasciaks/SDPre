@@ -5,6 +5,7 @@
 ./Objective4Lab3.java
 ./MenuExample.java
 ./BooleanExpressions.java
+./Objective7Lab1.java
 ./Objective6Lab1.java
 ./Objective2Lab3.java
 ./Objective3Lab3.java
@@ -14,9 +15,13 @@
 ./Objective3Lab2.java
 ./ClassExample.java
 ./SysoutExample.java
+./Objective7Lab3.java
 ./Objective3Lab1.java
 ./Objective2Lab1.java
 ./HelloWorld.java
+./Objective7Lab2.java
+./Objective7Lab5.java
 ./Objective1Lab2.java
+./Objective7Lab4.java
 ./Objective4Lab1.java
 ./Objective5Lab1.java

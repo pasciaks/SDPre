@@ -11,7 +11,7 @@ Calculate what year the user was born in.
 Print out the calculated birthYear.
 
 Hint: You will need to use the currentYear variable to calculate the birthYear.
-Hint: When calculating the birthYear you will need to take into account whether or not the user has had their birthday yet this year.
+Hint: When calculating the birthYear you will need to take into account whether the user has had their birthday yet this year.
 
  */
 public class Objective4Lab3 {
@@ -53,13 +53,13 @@ public class Objective4Lab3 {
 
         // Extra for debugging and evaluation purposes
 
-        System.out.println("The current year is " + currentYear + ".");
-        System.out.println("The current month is " + today.getMonthValue() + ".");
-        System.out.println("The current day is " + today.getDayOfMonth() + ".");
-        System.out.println("The current day of the week is " + today.getDayOfWeek() + ".");
-        System.out.println("The current day of the year (Calendar Julian Day) is " + today.getDayOfYear() + ".");
-        System.out.println("The current era is " + today.getEra() + ".");
-        System.out.println("The current leap year status is " + today.isLeapYear() + ".");
+        // System.out.println("The current year is " + currentYear + ".");
+        // System.out.println("The current month is " + today.getMonthValue() + ".");
+        // System.out.println("The current day is " + today.getDayOfMonth() + ".");
+        // System.out.println("The current day of the week is " + today.getDayOfWeek() + ".");
+        // System.out.println("The current day of the year (Calendar Julian Day) is " + today.getDayOfYear() + ".");
+        // System.out.println("The current era is " + today.getEra() + ".");
+        // System.out.println("The current leap year status is " + today.isLeapYear() + ".");
 
         Scanner input = new Scanner(System.in);
         System.out.print("How old are you?\n>> ");
@@ -74,7 +74,6 @@ public class Objective4Lab3 {
         System.out.println("You were born in " + birthYear);
 
         input.close();
-
 
     }
 }

@@ -33,7 +33,7 @@ public class Objective7Lab5 {
             if (selection == 1) {
                 System.out.println("Hello World");
             } else if (selection == 2) {
-                System.out.println("Apple, Banana, Coconuts");
+                System.out.println("Apple, Banana, Coconut");
             } else if (selection == 3) {
                 System.out.println("Goodbye");
                 break;

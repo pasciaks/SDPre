@@ -5,9 +5,11 @@
 ./Objective4Lab3.java
 ./MenuExample.java
 ./BooleanExpressions.java
+./Objective6Lab1.java
 ./Objective2Lab3.java
 ./Objective3Lab3.java
 ./Objective5Lab4.java
+./SwitchExample.java
 ./Objective2Lab2.java
 ./Objective3Lab2.java
 ./ClassExample.java

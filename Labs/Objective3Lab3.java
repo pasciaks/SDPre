@@ -8,8 +8,14 @@ class Objective3Lab3 {
         Create a main method.
         Create three int variables called first, second, and third.
         These three variables will each refer to a randomly selected number between 1 and 6.
+
         Hint: To generate a random number between 1 and 6:
         1 + (int)(Math.random() * 6)
+
+        // Note this is good for arbitrary 1-6, but not for min/max translation if adapted to a method
+        // Use the following for such cases...
+        // return (int) (Math.floor(Math.random() * (max - min + 1)) + min);
+
         You will learn exactly what this line of code is doing when we see you in class!
         Again there will be no starter code provided, for the same reasons as before.
      */
@@ -18,13 +24,8 @@ class Objective3Lab3 {
     Using prior knowledge of the Math class, create a method called generateRandom() that takes two int arguments, min and max, and returns a random number between min and max inclusive.
      */
     public static int generateRandom(int min, int max) {
-
-        // Example use of generateRandom():
-        //        for (int i = 0; i < 99; i++) {
-        //            System.out.println(generateRandom(1, 6));
-        //        }
-
-        return min + (int) (Math.random() * max);
+        // return min + (int) (Math.random() * max); // // Note: this random for min/max is flawed, good for 1-6, but not when min is not 1
+        return (int) (Math.floor(Math.random() * (max - min + 1)) + min);
     }
 
     public static void main(String[] args) {

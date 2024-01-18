@@ -1,4 +1,6 @@
+./Objective4Lab2.java
 ./Objective1Lab1.java
+./Objective4Lab3.java
 ./MenuExample.java
 ./Objective2Lab3.java
 ./Objective3Lab3.java
@@ -10,3 +12,4 @@
 ./Objective2Lab1.java
 ./HelloWorld.java
 ./Objective1Lab2.java
+./Objective4Lab1.java

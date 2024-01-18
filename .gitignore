@@ -2,5 +2,5 @@
 .env
 .idea
 out
-.class
+*.class
 

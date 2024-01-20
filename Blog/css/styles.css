@@ -4,5 +4,13 @@ body {
 
 a {
     text-decoration: underline dotted;
+}
 
+#back-to-top {
+    display: none;
+}
+
+/* Show the button when the page is scrolled */
+body.scrolled #back-to-top {
+    display: block;
 }

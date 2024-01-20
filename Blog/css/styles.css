@@ -2,3 +2,7 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
+a {
+    text-decoration: underline dotted;
+
+}

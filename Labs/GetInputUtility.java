@@ -29,6 +29,7 @@ public class GetInputUtility {
                     }
                     return null;
                 }
+
                 if (validUserInput.compareTo(min) >= 0 && validUserInput.compareTo(max) <= 0) {
                     shouldTryAgain = false;
                 } else {

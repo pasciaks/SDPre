@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class GetInputUtility {
 
+    @SuppressWarnings("unchecked")
     public static <T extends Comparable<T>> T getInput(T min, T max) {
         Scanner scanner;
         boolean shouldTryAgain = true;
@@ -30,9 +31,9 @@ public class GetInputUtility {
             } catch (NumberFormatException nfe) {
                 System.out.println("Invalid input. Try again.");
             } catch (Exception exception) {
-                    System.out.println("----------------------------------------------------------------------------");
-                    System.out.println("MY Personal Exception caught: " + exception);
-                    System.out.println("----------------------------------------------------------------------------");
+                System.out.println("----------------------------------------------------------------------------");
+                System.out.println("MY Personal Exception caught: " + exception);
+                System.out.println("----------------------------------------------------------------------------");
             }
         } while (shouldTryAgain);
         return validUserInput;

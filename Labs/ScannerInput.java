@@ -5,7 +5,7 @@ public class ScannerInput {
     public static void main(String[] args) {
 
         int number;
-        System.out.println("Please enter a number between 1 and 10");
+        System.out.print("Please enter a number between 1 and 10: ");
         number = getInteger(1, 10);
 
     }
